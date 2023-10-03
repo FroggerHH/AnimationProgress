@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a156958-3322-40de-aab2-f4a8568c795b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TravelingLocations/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TravelingLocations/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TravelingLocations/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TravelingLocations/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TravelingLocations/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TravelingLocations/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelingLocations.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TravelingLocations.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MerchantSpawnTweaks/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MerchantSpawnTweaks/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MerchantSpawnTweaks/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MerchantSpawnTweaks/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MerchantSpawnTweaks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MerchantSpawnTweaks/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MerchantSpawnTweaks.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MerchantSpawnTweaks.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPC_SaveData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NPC_SaveData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patch/PreventRegisteringLocation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patch/PreventRegisteringLocation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patch/RandomlyRelocateOnMorning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patch/RandomlyRelocateOnMorning.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patch/RegisterRPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patch/RegisterRPC.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patch/SaveIDs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patch/SaveIDs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patch/UpdateConfigOnZoneSysStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patch/UpdateConfigOnZoneSysStart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Relocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TerminalCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TerminalCommands.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0ecb7907f7c6466f888cc7114fab31ad4e00/6f/831a0828/Location.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/194ebca671ca4a0ea513de8e2d6edf812c00/63/5cf85c45/JFHelperLite.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/27/f6ebb4ce/ZNet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/31/4972b8f9/Location.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/3f/33bc50c4/Plant.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/48/04abe108/ZDOMan.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/48/8e8ab92b/ZDOPool.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/56/dba0bf9e/Trader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/6a/4e520074/Terminal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/7b/d770141d/PrivateArea.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/94/e048016b/ZDOID.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/ab/33d3d10e/ZRoutedRpc.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/ac/c97e71a5/LocationProxy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/da/aacb76d4/EnvMan.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/ee/4909ad06/ZNetScene.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/f2/a44e94f4/ZoneSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/fc/c3dbf094/ZDO.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/fe/5bdcdcae/ZNetView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/fe/7002e9f9/Minimap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/447b19510f604ca3807cd6cce3a7c1ef18b200/06/ebad0813/ZNetScene.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/447b19510f604ca3807cd6cce3a7c1ef18b200/1c/9b8e3ce4/ZNetView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/447b19510f604ca3807cd6cce3a7c1ef18b200/41/bf85119f/ZDOVars.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/447b19510f604ca3807cd6cce3a7c1ef18b200/4c/20a4e2b8/ZNet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/447b19510f604ca3807cd6cce3a7c1ef18b200/7b/f3c4c0b8/LocationProxy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/447b19510f604ca3807cd6cce3a7c1ef18b200/88/e3a246ef/ZoneSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/447b19510f604ca3807cd6cce3a7c1ef18b200/be/e89261b7/Game.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/447b19510f604ca3807cd6cce3a7c1ef18b200/eb/93a59218/ZDO.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/00/3202a6c9/Humanoid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/05/270e467c/SpawnPrefab.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/07/81efcc5f/Tameable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/0c/1de175b9/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/13/21735dd2/Door.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/15/e547904c/TombStone.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/1a/8e3d58e0/Inventory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/1c/271e0860/PrivilegeManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/1c/6a1d9c26/Hoverable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/26/779a3d28/EnvMan.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/26/bc9e66db/StoreGui.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/2f/350d90fa/EffectArea.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/31/a57d1c07/Pathfinding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/31/dc17dfae/Container.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/33/ef19765a/Terminal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/42/262fb31d/MusicMan.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/42/3079e20f/BaseAI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/44/3b70d622/MusicLocation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/56/d6625bed/IDestructible.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/57/1d0ae193/Destructible.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/58/666f2f4a/InventoryGrid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/58/6e261d06/HitData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/59/aed514c7/Bed.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/60/848402f5/Emote.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/61/0fbae52d/DropTable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/61/8763ee36/EggGrow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/68/ae25050e/ZNetView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/72/6e670658/MonoUpdaters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/7e/1e4647c1/WearNTear.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/86/c059dd3e/AudioMan.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/8d/7af6132f/Trader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/9d/1d263b6d/StationExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/9d/409adde3/ItemDrop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/a0/d17a3487/Plant.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/a6/ce5c1efe/Chat.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/ac/743d086c/MonsterAI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/b0/4682a617/ObjectDB.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/b0/a1c3c07e/InstantiatePrefab.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/b3/3f3beca9/Recipe.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/b5/91d5731c/Hud.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/c2/7145c770/Pickable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/cc/4408b367/InventoryGui.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/d9/cb2d4d8f/Sign.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/ea/3df2642a/CraftingStation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/ed/b7c4f4c1/Piece.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/ee/64a25379/Character.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/ef/ad9f220d/VisEquipment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48864f82c80740a5984b09ac5201e2976b200/a0/a1275642/NPCsManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55b17d33fafb4b0b883998781ddf30c1ea00/2c/692499fe/Vector2i.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55b17d33fafb4b0b883998781ddf30c1ea00/40/d39485c2/Utils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55b17d33fafb4b0b883998781ddf30c1ea00/e6/19b71d9a/DictionaryExt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/60d5247800ce4094b57a8e9b77f693f7fa00/ca/efab4464/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/60d5247800ce4094b57a8e9b77f693f7fa00/dd/f640f3f0/AudioMixer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/80a114f710e24e40b562f5b2ad1b7b6bac00/61/0d961cf7/Creature.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8c6449ba533c4cee8bc1677998dd4e7211000/10/2cc87b26/Utils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8c6449ba533c4cee8bc1677998dd4e7211000/4f/1fc174d7/LookAt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8c6449ba533c4cee8bc1677998dd4e7211000/6b/84694dcd/Timer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8c6449ba533c4cee8bc1677998dd4e7211000/f4/ebc5bc41/Cover.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9b49a23b9c714bb693daf52aab6f54f238a00/6d/02a98c02/Text.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a25808eac1574146b1ca3ed9728341a0be00/cf/49f5fb03/RequiredResourcesList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c354bf3be62648649ea55e8af798831218200/04/3ada845f/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c62cc0ef748e4107b21e2999fa50d73a13c800/0b/3dddbf8e/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c62cc0ef748e4107b21e2999fa50d73a13c800/38/258d6c41/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c62cc0ef748e4107b21e2999fa50d73a13c800/44/4f532d9b/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c62cc0ef748e4107b21e2999fa50d73a13c800/64/78e2cd04/LayerMask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c62cc0ef748e4107b21e2999fa50d73a13c800/80/97f94ec5/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c62cc0ef748e4107b21e2999fa50d73a13c800/86/99c24144/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c62cc0ef748e4107b21e2999fa50d73a13c800/c7/90ad18c0/Resources.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d54aecc6242a4107b2588020c9589a0d18aa00/6c/c2fe16a8/Terminal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e84932cb409d42269fc72ad26f20391b532bb8/0d/d893f06f/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e84932cb409d42269fc72ad26f20391b532bb8/44/1b75094b/File.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e84932cb409d42269fc72ad26f20391b532bb8/56/8dffe72c/IEquatable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e84932cb409d42269fc72ad26f20391b532bb8/73/2cb8b579/ValueTuple`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e84932cb409d42269fc72ad26f20391b532bb8/88/9ffb4c13/IFormattable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e84932cb409d42269fc72ad26f20391b532bb8/90/777746ef/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e84932cb409d42269fc72ad26f20391b532bb8/a8/21260e6a/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e84932cb409d42269fc72ad26f20391b532bb8/b0/66d94623/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e84932cb409d42269fc72ad26f20391b532bb8/f5/c17a4150/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f0e44b29e3f1438ab172e6a60928a3b653e998/2b/6d81ab5c/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f0e44b29e3f1438ab172e6a60928a3b653e998/3d/3dfb788e/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f0e44b29e3f1438ab172e6a60928a3b653e998/95/58026e12/ValueTuple`3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f0e44b29e3f1438ab172e6a60928a3b653e998/c4/ec2560d4/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f0e44b29e3f1438ab172e6a60928a3b653e998/d6/cd1d9b35/ValueTuple`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fe49c90fe8e24102b42489c11910c71c1ea00/93/95ae10c5/Chainloader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fe49c90fe8e24102b42489c11910c71c1ea00/98/a02fd4ff/Logger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fe49c90fe8e24102b42489c11910c71c1ea00/e4/1a17d30d/BaseUnityPlugin.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fe49c90fe8e24102b42489c11910c71c1ea00/f1/f9de245d/PluginInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Patch/PreventRegisteringLocation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Patch/RandomlyRelocateOnMorning.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Patch/SaveIDs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugin.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Relocator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TerminalCommands.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
+  </component>
+  <component name="ProjectId" id="2S40u69X7OBW5cCLPOA5Tyd9Pxq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\user\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\user\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\user\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a156958-3322-40de-aab2-f4a8568c795b" name="Changes" comment="" />
+      <created>1688390768538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688390768538</updated>
+      <workItem from="1688390768539" duration="2082000" />
+      <workItem from="1688448225409" duration="30548000" />
+      <workItem from="1688481574385" duration="229000" />
+      <workItem from="1688482070968" duration="62000" />
+      <workItem from="1688539727055" duration="27294000" />
+      <workItem from="1688621067051" duration="23176000" />
+      <workItem from="1688657257959" duration="136000" />
+      <workItem from="1688709770713" duration="95000" />
+      <workItem from="1688729906713" duration="11236000" />
+      <workItem from="1688912842405" duration="7590000" />
+      <workItem from="1688967479839" duration="12105000" />
+      <workItem from="1688985153314" duration="15811000" />
+      <workItem from="1689058750993" duration="20351000" />
+      <workItem from="1689089805873" duration="506000" />
+      <workItem from="1689141077859" duration="8764000" />
+      <workItem from="1689152212492" duration="17766000" />
+      <workItem from="1689174197187" duration="465000" />
+      <workItem from="1689246450988" duration="57000" />
+      <workItem from="1689254952895" duration="771000" />
+      <workItem from="1689319398065" duration="786000" />
+      <workItem from="1689332706608" duration="78000" />
+      <workItem from="1689355891111" duration="1538000" />
+      <workItem from="1692001905184" duration="1060000" />
+      <workItem from="1692006212531" duration="1300000" />
+      <workItem from="1692013920874" duration="168000" />
+      <workItem from="1692090583439" duration="105000" />
+      <workItem from="1692101639671" duration="11107000" />
+      <workItem from="1692163750722" duration="5527000" />
+      <workItem from="1692182807921" duration="5482000" />
+      <workItem from="1692294588557" duration="4280000" />
+      <workItem from="1692335366133" duration="2614000" />
+      <workItem from="1692342808664" duration="21528000" />
+      <workItem from="1692438737980" duration="3545000" />
+      <workItem from="1693047502626" duration="641000" />
+      <workItem from="1693157615753" duration="14000" />
+      <workItem from="1693157781602" duration="3086000" />
+      <workItem from="1693161436476" duration="131000" />
+      <workItem from="1693161618288" duration="1411000" />
+      <workItem from="1693204435209" duration="25539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/478cefef01544173a8b5828694dc7192183600/42/3079e20f/BaseAI.cs</url>
+          <line>214</line>
+          <properties documentPath="C:\Users\user\AppData\Roaming\JetBrains\Rider2023.1\resharper-host\DecompilerCache\decompiler\478cefef01544173a8b5828694dc7192183600\42\3079e20f\BaseAI.cs" initialLine="214" containingFunctionPresentation="Method 'UpdateTakeoffLanding'">
+            <startOffsets>
+              <option value="8587" />
+            </startOffsets>
+            <endOffsets>
+              <option value="8588" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2959d3c128e64c61a08dcc9bb6744ec316d200/48/04abe108/ZDOMan.cs</url>
+          <line>740</line>
+          <properties documentPath="C:\Users\user\AppData\Roaming\JetBrains\Rider2023.1\resharper-host\DecompilerCache\decompiler\2959d3c128e64c61a08dcc9bb6744ec316d200\48\04abe108\ZDOMan.cs" initialLine="740" containingFunctionPresentation="Method 'AddDistantObjects'">
+            <startOffsets>
+              <option value="23801" />
+            </startOffsets>
+            <endOffsets>
+              <option value="23802" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TerminalCommands.cs</url>
+          <line>25</line>
+          <properties documentPath="D:\Slava\Coding\MerchantSpawnTweaks\TerminalCommands.cs" initialLine="25" containingFunctionPresentation="Lambda expression inside Method 'Postfix'">
+            <startOffsets>
+              <option value="736" />
+            </startOffsets>
+            <endOffsets>
+              <option value="737" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
