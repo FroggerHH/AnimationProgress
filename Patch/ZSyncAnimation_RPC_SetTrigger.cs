@@ -1,9 +1,7 @@
-﻿using System.Diagnostics.CodeAnalysis;
-
-namespace AnimationProgress.Patch;
+﻿namespace AnimationProgress.Patch;
 
 [HarmonyPatch(typeof(ZSyncAnimation), nameof(ZSyncAnimation.RPC_SetTrigger))]
-static class Patch_ZSyncAnimation_RPC_SetTrigger
+internal static class Patch_ZSyncAnimation_RPC_SetTrigger
 {
     private static Player player;
 
@@ -14,7 +12,7 @@ static class Patch_ZSyncAnimation_RPC_SetTrigger
         Debug($"Patch_ZSyncAnimation_RPC_SetTrigger, name '{name}");
         player = __instance.GetComponent<Player>();
         if (!player) return;
-        Debug($"ApplyAnim 0");
+        Debug("ApplyAnim 0");
 
         var rightItem = player.GetRightItem();
         Debug($"ApplyAnim 1 rightItem '{rightItem}'");
@@ -31,11 +29,11 @@ static class Patch_ZSyncAnimation_RPC_SetTrigger
         CustomRuntimeControllers.TryGetValue(toReplace, out var replace);
         Debug($"FastReplaceRAC 1 replace '{replace}'");
         if (!replace || player.m_animator.runtimeAnimatorController == replace) return false;
-        Debug($"FastReplaceRAC 2'");
+        Debug("FastReplaceRAC 2'");
 
         player.m_animator.runtimeAnimatorController = replace;
         player.m_animator.Update(Time.deltaTime);
-        Debug($"FastReplaceRAC 3'");
+        Debug("FastReplaceRAC 3'");
         return true;
     }
 }

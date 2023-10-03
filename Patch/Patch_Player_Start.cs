@@ -13,7 +13,7 @@ public static class PatchPlayerStart
     {
         if (CustomRuntimeControllers.Count == 0 && Player.m_localPlayer is not null)
         {
-            var original = MakeAnimatorOverrideController(new(),
+            var original = MakeAnimatorOverrideController(new Dictionary<string, string>(),
                 __instance.m_animator.runtimeAnimatorController);
             original.name = "Original";
             CustomRuntimeControllers["Original"] = original;

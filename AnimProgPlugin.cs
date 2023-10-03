@@ -1,7 +1,4 @@
-﻿using System.IO;
-using System.Reflection;
-using BepInEx;
-using BepInEx.Configuration;
+﻿using BepInEx;
 
 namespace AnimationProgress;
 
@@ -48,9 +45,10 @@ public class AnimProgPlugin : BaseUnityPlugin
     {
         if (!original)
         {
-            DebugError($"[AnimationProgress.MakeAnimatorOverrideController] original is null");
+            DebugError("[AnimationProgress.MakeAnimatorOverrideController] original is null");
             return null;
         }
+
         AnimatorOverrideController aoc = new(original);
         List<KeyValuePair<AnimationClip, AnimationClip>> anims = new();
         foreach (var clip in aoc.animationClips)
@@ -58,10 +56,13 @@ public class AnimProgPlugin : BaseUnityPlugin
             var animName = clip.name;
             if (replacement.TryGetValue(animName, out var value))
             {
-                AnimationClip newClip = Instantiate(ExternalAnimations[value]);
+                var newClip = Instantiate(ExternalAnimations[value]);
                 newClip.name = animName;
-                anims.Add(new(clip, newClip));
-            } else anims.Add(new(clip, clip));
+                anims.Add(new KeyValuePair<AnimationClip, AnimationClip>(clip, newClip));
+            } else
+            {
+                anims.Add(new KeyValuePair<AnimationClip, AnimationClip>(clip, clip));
+            }
         }
 
         aoc.ApplyOverrides(anims);
