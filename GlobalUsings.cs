@@ -24,3 +24,5 @@ global using static ItemDrop.ItemData;
 global using static ItemDrop.ItemData.AnimationState;
 global using static AnimationProgress.AnimProgPlugin;
 global using static BepInEx.BepInDependency;
+global using static Skills;
+global using static Skills.SkillType;

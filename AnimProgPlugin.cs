@@ -1,4 +1,5 @@
 ﻿using BepInEx;
+using BepInEx.Configuration;
 
 namespace AnimationProgress;
 
@@ -13,29 +14,36 @@ public class AnimProgPlugin : BaseUnityPlugin
         ModVersion = "1.0.0",
         ModGuid = $"com.{ModAuthor}.{ModName}";
 
+    internal static ConfigEntry<string> greatSwordSkillConfig;
+    internal static ConfigEntry<int> greatSwordSkillLevelNeededConfig;
 
-    internal static readonly Dictionary<string, Dictionary<string, string>> replacementMap = new();
-    private static readonly Dictionary<string, int> attackMap = new();
+
+    internal static readonly Dictionary<ControllerType, Dictionary<string, string>> replacementMap = new();
     internal static readonly Dictionary<string, AnimationClip> ExternalAnimations = new();
-    internal static readonly Dictionary<string, RuntimeAnimatorController> CustomRuntimeControllers = new();
+    internal static readonly Dictionary<ControllerType, RuntimeAnimatorController> CustomRuntimeControllers = new();
 
     private void Awake()
     {
         CreateMod(this, ModName, ModAuthor, ModVersion);
         mod.LoadAssetBundle("dwanimations");
+        greatSwordSkillConfig = mod.config("General", "GreatSwordSkill", Swords.ToString(), "");
+        greatSwordSkillLevelNeededConfig = mod.config("General", "GreatSwordSkillLevelNeeded", 50, "");
 
         ExternalAnimations["Attack1External"] = mod.bundle.LoadAsset<AnimationClip>("Attack1");
         ExternalAnimations["Attack2External"] = mod.bundle.LoadAsset<AnimationClip>("Attack2");
+        ExternalAnimations["Attack3External"] = mod.bundle.LoadAsset<AnimationClip>("Attack3");
+        ExternalAnimations["Attack4External"] = mod.bundle.LoadAsset<AnimationClip>("DWspecial");
         // ExternalAnimations["Attack3External"] = asset.LoadAsset<AnimationClip>("Attack3");
         mod.bundle.Unload(false);
 
-        attackMap["greatsword"] = 1;
-        attackMap["greatsword_secondary"] = 2;
-
         Dictionary<string, string> replacement = new();
-        foreach (var (attackToReplace, replacementAnimID) in attackMap.Select(x => (x.Key, x.Value)))
-            replacement[attackToReplace] = $"Attack{replacementAnimID}External";
-        replacementMap["GreatSword"] = replacement;
+        replacementMap[ControllerType.GreatSword] = new Dictionary<string, string>
+        {
+            { "Greatsword BaseAttack (1)", "Attack1External" },
+            { "Greatsword BaseAttack (2)", "Attack2External" },
+            { "Greatsword BaseAttack (3)", "Attack3External" },
+            { "Greatsword Secondary Attack", "Attack4External" }
+        };
     }
 
 
@@ -51,6 +59,9 @@ public class AnimProgPlugin : BaseUnityPlugin
 
         AnimatorOverrideController aoc = new(original);
         List<KeyValuePair<AnimationClip, AnimationClip>> anims = new();
+        Debug($"anims in AnimatorController '{original}' is \n {aoc.animationClips.Select(x => x.name).GetString()}");
+        Debug($"replacement anims is \n {replacement.Select(x => $"{x.Key}.{x.Value}").GetString()}");
+
         foreach (var clip in aoc.animationClips)
         {
             var animName = clip.name;
@@ -67,5 +78,21 @@ public class AnimProgPlugin : BaseUnityPlugin
 
         aoc.ApplyOverrides(anims);
         return aoc;
+    }
+
+
+    internal static bool FastReplaceRAC(Player player, ControllerType replaceTo)
+    {
+        if (CustomRuntimeControllers.TryGetValue(replaceTo, out var replace))
+        {
+            if (player.m_animator.runtimeAnimatorController == replace) return false;
+
+            player.m_animator.runtimeAnimatorController = replace;
+            player.m_animator.Update(Time.deltaTime);
+            return true;
+        }
+
+        DebugError($"[AnimationProgress.FastReplaceRAC] CustomRuntimeControllers does not contain '{replaceTo}'");
+        return false;
     }
 }

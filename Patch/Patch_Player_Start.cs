@@ -15,14 +15,12 @@ public static class PatchPlayerStart
         {
             var original = MakeAnimatorOverrideController(new Dictionary<string, string>(),
                 __instance.m_animator.runtimeAnimatorController);
-            original.name = "Original";
-            CustomRuntimeControllers["Original"] = original;
-            var greatSword = MakeAnimatorOverrideController(replacementMap["GreatSword"],
+            original.name = ControllerType.Original.ToString();
+            CustomRuntimeControllers[ControllerType.Original] = original;
+            var greatSword = MakeAnimatorOverrideController(replacementMap[ControllerType.GreatSword],
                 __instance.m_animator.runtimeAnimatorController);
-            greatSword.name = "GreatSword";
-            CustomRuntimeControllers["GreatSword"] = greatSword;
-
-            //ExternalAnimations["Attack3External"] = __instance.m_animator.runtimeAnimatorController.
+            greatSword.name = ControllerType.GreatSword.ToString();
+            CustomRuntimeControllers[ControllerType.GreatSword] = greatSword;
         }
     }
 }
