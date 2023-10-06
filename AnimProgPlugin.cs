@@ -25,24 +25,23 @@ public class AnimProgPlugin : BaseUnityPlugin
     private void Awake()
     {
         CreateMod(this, ModName, ModAuthor, ModVersion);
-        mod.LoadAssetBundle("dwanimations");
+        mod.LoadAssetBundle("animationprogress");
         greatSwordSkillConfig = mod.config("General", "GreatSwordSkill", Swords.ToString(), "");
         greatSwordSkillLevelNeededConfig = mod.config("General", "GreatSwordSkillLevelNeeded", 50, "");
 
-        ExternalAnimations["Attack1External"] = mod.bundle.LoadAsset<AnimationClip>("Attack1");
-        ExternalAnimations["Attack2External"] = mod.bundle.LoadAsset<AnimationClip>("Attack2");
-        ExternalAnimations["Attack3External"] = mod.bundle.LoadAsset<AnimationClip>("Attack3");
-        ExternalAnimations["Attack4External"] = mod.bundle.LoadAsset<AnimationClip>("DWspecial");
-        // ExternalAnimations["Attack3External"] = asset.LoadAsset<AnimationClip>("Attack3");
+        ExternalAnimations["1"] = mod.bundle.LoadAsset<AnimationClip>("1_(Longs_Attack_p_RD)");
+        ExternalAnimations["2"] = mod.bundle.LoadAsset<AnimationClip>("2_(Longs_Attack_p_LD)");
+        ExternalAnimations["3"] = mod.bundle.LoadAsset<AnimationClip>("3_(Longs_Attack_p_LU)");
+        ExternalAnimations["special"] = mod.bundle.LoadAsset<AnimationClip>("special_(Longs_Attack_D)");
         mod.bundle.Unload(false);
 
         Dictionary<string, string> replacement = new();
         replacementMap[ControllerType.GreatSword] = new Dictionary<string, string>
         {
-            { "Greatsword BaseAttack (1)", "Attack1External" },
-            { "Greatsword BaseAttack (2)", "Attack2External" },
-            { "Greatsword BaseAttack (3)", "Attack3External" },
-            { "Greatsword Secondary Attack", "Attack4External" }
+            { "Greatsword BaseAttack (1)", "1" },
+            { "Greatsword BaseAttack (2)", "2" },
+            { "Greatsword BaseAttack (3)", "3" },
+            { "Greatsword Secondary Attack", "special" }
         };
     }
 

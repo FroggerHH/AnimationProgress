@@ -19,11 +19,11 @@ internal static class Patch_ZSyncAnimation_RPC_SetTrigger
         var level = skill.m_level;
         var levelMatch = level > greatSwordSkillLevelNeededConfig.Value;
         var animationMatch = rightItem.m_shared.m_animationState == Greatsword;
-        
+
         // Debug($"skill '{skill.LocalizeSkill()}', "
         //       + $"level is '{level}', animationMatch '{animationMatch}, "
         //       + $"levelMatch is '{levelMatch}'");
-        
+
         if (animationMatch && levelMatch)
             FastReplaceRAC(player, ControllerType.GreatSword);
         else

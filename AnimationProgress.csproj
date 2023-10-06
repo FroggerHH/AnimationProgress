@@ -122,8 +122,8 @@
         <None Include="packages.config" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="dwanimations">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <EmbeddedResource Include="animationprogress">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </EmbeddedResource>
         <Content Include="ILRepack.targets" />
     </ItemGroup>
