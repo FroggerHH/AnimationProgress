@@ -58,8 +58,6 @@ public class AnimProgPlugin : BaseUnityPlugin
 
         AnimatorOverrideController aoc = new(original);
         List<KeyValuePair<AnimationClip, AnimationClip>> anims = new();
-        Debug($"anims in AnimatorController '{original}' is \n {aoc.animationClips.Select(x => x.name).GetString()}");
-        Debug($"replacement anims is \n {replacement.Select(x => $"{x.Key}.{x.Value}").GetString()}");
 
         foreach (var clip in aoc.animationClips)
         {
