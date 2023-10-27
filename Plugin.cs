@@ -4,9 +4,8 @@ using BepInEx.Configuration;
 namespace AnimationProgress;
 
 [BepInPlugin(ModGuid, ModName, ModVersion)]
-// ReSharper disable once IdentifierTypo
 [BepInDependency("org.bepinex.plugins.dualwield", DependencyFlags.SoftDependency)]
-public class AnimProgPlugin : BaseUnityPlugin
+public class Plugin : BaseUnityPlugin
 {
     internal const string
         ModAuthor = "Frogger",
@@ -24,16 +23,16 @@ public class AnimProgPlugin : BaseUnityPlugin
 
     private void Awake()
     {
-        CreateMod(this, ModName, ModAuthor, ModVersion);
-        mod.LoadAssetBundle("animationprogress");
-        greatSwordSkillConfig = mod.config("General", "GreatSwordSkill", Swords.ToString(), "");
-        greatSwordSkillLevelNeededConfig = mod.config("General", "GreatSwordSkillLevelNeeded", 50, "");
+        CreateMod(this, ModName, ModAuthor, ModVersion, ModGuid);
+        LoadAssetBundle("animationprogress");
+        greatSwordSkillConfig = config("General", "GreatSwordSkill", Swords.ToString(), "");
+        greatSwordSkillLevelNeededConfig = config("General", "GreatSwordSkillLevelNeeded", 50, "");
 
-        ExternalAnimations["1"] = mod.bundle.LoadAsset<AnimationClip>("1_(Longs_Attack_p_RD)");
-        ExternalAnimations["2"] = mod.bundle.LoadAsset<AnimationClip>("2_(Longs_Attack_p_LD)");
-        ExternalAnimations["3"] = mod.bundle.LoadAsset<AnimationClip>("3_(Longs_Attack_p_LU)");
-        ExternalAnimations["special"] = mod.bundle.LoadAsset<AnimationClip>("special_(Longs_Attack_D)");
-        mod.bundle.Unload(false);
+        ExternalAnimations["1"] = bundle.LoadAsset<AnimationClip>("1_(Longs_Attack_p_RD)");
+        ExternalAnimations["2"] = bundle.LoadAsset<AnimationClip>("2_(Longs_Attack_p_LD)");
+        ExternalAnimations["3"] = bundle.LoadAsset<AnimationClip>("3_(Longs_Attack_p_LU)");
+        ExternalAnimations["special"] = bundle.LoadAsset<AnimationClip>("special_(Longs_Attack_D)");
+        bundle.Unload(false);
 
         Dictionary<string, string> replacement = new();
         replacementMap[ControllerType.GreatSword] = new Dictionary<string, string>

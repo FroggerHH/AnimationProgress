@@ -110,7 +110,7 @@
         <Compile Include="ControllerType.cs" />
         <Compile Include="GlobalUsings.cs" />
         <Compile Include="Patch\Patch_Player_Start.cs" />
-        <Compile Include="AnimProgPlugin.cs" />
+        <Compile Include="Plugin.cs" />
         <Compile Include="Patch\ZSyncAnimation_RPC_SetTrigger.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
@@ -120,7 +120,7 @@
     </ItemGroup>
     <ItemGroup>
         <EmbeddedResource Include="animationprogress">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </EmbeddedResource>
         <Content Include="ILRepack.targets" />
     </ItemGroup>
